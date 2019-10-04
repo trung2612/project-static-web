@@ -1,0 +1,35 @@
+.navbar {
+	background: #C4C4C4;
+	opacity: 0.2;
+}
+
+.navbar-nav a {
+	float: right;
+	width: 140px;
+	height: 52px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+color: #FFFFFF;
+}
+
+.navbar-light .navbar-brand {
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FBF9F9;
+
+}

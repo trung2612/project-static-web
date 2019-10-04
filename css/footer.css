@@ -1,0 +1,22 @@
+.footer__icon {
+	background: #368030;
+	text-align: center;
+	
+}
+
+.footer__icon img {
+	padding: 16px 35px;
+}
+
+.footer__footer--cl {
+	display: inline-block;
+
+}.footer__footer--cl p {
+	margin: 0;
+
+}
+
+.footer__footer--cl h3 {
+	padding-top: 20px;
+	padding-bottom: 15px;
+} 
