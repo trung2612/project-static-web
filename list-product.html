@@ -24,7 +24,7 @@
   <link rel="stylesheet" href="css/menu.css">
 
   <!-- index css -->
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/list-product.css">
   
   <!-- responsive -->
   <link rel="stylesheet" href="css/responsive.css">
@@ -33,13 +33,9 @@
   <title>Sản phẩm</title>
 </head>
 <body>
-  <!-- header -->
-  <div id="header"></div>
 
   <!-- menu -->
   <div id="menu"></div>
-
-
 
   <!-- main -->
   <div>
@@ -60,47 +56,108 @@
         </li>
       </ul>
     </div>
-    <div class="body__product row container mx-auto">
-      <div class="body__menu col-12 col-md-2">
-        <h3>DANH MỤC</h3>
-        <div>
-          <p>Trái cây &#160 &#160 &#160 &#160 &#160 &#160></p>
-        </div>
-        <div>
-          <p>Rau củ &#160 &#160 &#160 &#160 &#160 &#160></p>
-        </div>
-        <div>
-          <p>Nước ép &#160 &#160 &#160 &#160 &#160 &#160></p>
-        </div>
-      </div>
 
-      <div class="product__list col-12 col-md-10 row">
+    <div id="mistake__list" class="container-fluid">
+      <div class="body__fruit container mx-auto">
+        <div class="body__fruit--title row">
+          <div class="col-12 col-md-2"></div>
+          <div class="body__fruit--fruit col-12 col-md-2">
+            <a href="list-product.html"><p>Trái cây</p></a>
+            <h5>Tìm thấy 32 sản phẩm</h5>
+          </div>
+          <div class="col-12 col-md-2"></div>
+          <div class="col-12 col-md-2"></div>
+          <div class="sorting col-12 col-md-2">
+            <div class="sort">
+              <h3 class="sort__title">Sắp xếp theo<i class="fas fa-angle-down"></i></h3>
+            </div>
+          </div>
+          <div class="nextpage col-12 col-md-2">
+            <i class="fas fa-angle-left"></i>
+            <h4>1</h4>
+            <h4>/</h4>
+            <h4>9</h4>
+            <i class="fas fa-angle-right"></i>
+          </div>
+        </div>
+
+        <div class="body__product row">
+          <div class="body__menu col-12 col-md-2">
+            <div>
+              <h3>DANH MỤC</h3>
+              <div>
+                <a href="list-product.html"><p>Trái cây <i class="fas fa-angle-right"></i></p></a>
+              </div>
+              <div>
+                <a href="list-product.html"><p>Rau củ<i class="fas fa-angle-right"></i></p></a> 
+              </div>
+              <div>
+                <a href="list-product.html"> <p>Nước ép <i class="fas fa-angle-right"></i></p>
+                </a>
+              </div>
+            </div>
+
+            <div class="body__menu--from">
+              <h3>XUẤT XỨ</h3>
+              <div>
+                <a href="#"><p>Việt Nam</p></a>
+              </div>
+              <div>
+                <a href="#"><p>New Zealand</p></a> 
+              </div>
+              <div>
+                <a href="#"> <p>Nhật Bản</p>
+                </a>
+              </div>
+              <div>
+                <a href="#"> <p>Hàn Quốc</p>
+                </a>
+              </div>
+              <div>
+                <a href="#"> <p>Mỹ</p>
+                </a>
+              </div>
+              <div>
+                <a href="#"> <p>Xem thêm</p>
+                </a>
+              </div>
+            </div>
+            <div class="body__menu--price">
+              <h3>XUẤT XỨ</h3>
+              <div>
+                <a href="#"><p>   200.000 - 500.000đ (9)</p></a>
+              </div>
+              <div>
+                <a href="#"><p>   50.000 - 20.000đ (15)</p></a> 
+              </div>
+              <div>
+                <a href="#"> <p>   Dướii 50.000đ (28)</p>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="product__list col-12 col-md-10 mx-auto row">
+          </div>      
+        </div>
+
+
+        <!-- footer -->
+        <div id="footer"></div>
+
+        <!-- jQuery -->
+        <script src="js/jquery-3.4.1.min.js"></script>
+
+        <!-- popper -->
+        <script src="js/popper.min.js"></script> 
+
+        <!-- bootstrap -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <!--   js  -->
+        <script src="js/script.js"></script>
       </div>
     </div>
-
-  </div>
-
-
-
-  
-
-
-
-  
-
-  <!-- footer -->
-  <div id="footer"></div>
-
-  <!-- jQuery -->
-  <script src="js/jquery-3.4.1.min.js"></script>
-
-  <!-- popper -->
-  <script src="js/popper.min.js"></script> 
-
-  <!-- bootstrap -->
-  <script src="js/bootstrap.min.js"></script>
-
-  <!--   js  -->
-  <script src="js/script.js"></script>
-</body>
-</html>
+    
+  </body>
+  </html>

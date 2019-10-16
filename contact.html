@@ -23,123 +23,133 @@
   <!-- menu -->
   <link rel="stylesheet" href="css/menu.css">
 
-  <!--   contact.css -->
+  <!--   contact.css --> 
   <link rel="stylesheet" href="css/contact.css">
 
   <!-- responsive -->
   <link rel="stylesheet" href="css/responsive.css">
 
-  <title>Liên </title>
+  <title>Liên hệ</title>
 </head>
 <body>
-  <!-- header -->
-  <div id="header"></div>
-
   <!-- menu -->
   <div id="menu"></div>
-
+  
   <!-- main -->
   <main>
-    <div class="form mx-auto">
-      <div class="gr3 d-inline-block">
-        <div class="form__gr3 form__gr3--address">
-          <div>
-            <img class="d-inline-block" src="images/location.png" alt="icon-location">
-            <p class="form__gr3--title gr3__address--title d-inline-block">Địa chỉ</p>
-          </div>
-          <p class="form__gr3--text gr3__address--text">48 Tố Hữu, Nam Từ Liêm, Hà Nội</p>
-        </div>
-
-        <div class="form__gr3 form__gr3--email">
-          <div>
-            <img class="d-inline-block" src="images/email.png" alt="icon-location">
-            <p class="form__gr3--title gr3__address--title d-inline-block">Email</p>
-          </div>
-          <p class="form__gr3--text gr3__address--text">cuta@gmail.com</p>
-        </div>
-
-        <div class="form__gr3 form__gr3--phone">
-          <div>
-            <img class="d-inline-block" src="images/phone.png" alt="icon-location">
-            <p class="form__gr3--title gr3__address--title d-inline-block">Phone</p>
-          </div>
-          <p class="form__gr3--text gr3__address--text">hoaquanamnguyet@gmail.com</p>
-        </div>
-      </div>
-
-      <form class="form__contact d-inline-block">
-        <p class="form__contact--title">Liên hệ với chúng tôi</p>
-
-        <div class="form__contact--in4">
-          <div class="contact__name contact--name">
-            <p class="d-inline-block">Họ tên:</p>
-            <input class="d-inline-block" type="text" name="name" placeholder="Điền vào họ tên">
+    <div class="form container">
+      <div id="box" class="d-flex justify-content-center">
+        <div class="gr3 ">
+          <div class="form__gr3 form__gr3--address">
+            <p class="form__gr3--title gr3__address--title"><i class="fas fa-map-marker-alt"></i>Địa chỉ</p>
+            <p class="form__gr3--text gr3__address--text">48 Tố Hữu, Nam Từ Liêm, Hà Nội</p>
           </div>
 
-          <div class="contact__name contact--email">
-            <p class="d-inline-block">Email:</p>
-            <input class="d-inline-block" type="text" name="email" placeholder="Điền vào email">
+          <div class="form__gr3 form__gr3--email">
+            <p class="form__gr3--title gr3__address--title"><i class="far fa-envelope"></i>Email</p>
+            <p class="form__gr3--text gr3__address--text">cuta@gmail.com</p>
           </div>
 
-          <div class="contact__name contact--phone">
-            <p class="d-inline-block">Sđt:</p>
-            <input class="d-inline-block" type="text" name="phone" placeholder="Điền vào số điện thoại">
-          </div>
-
-          <div class="contact__name contact--address">
-            <p class="d-inline-block">Địa chỉ:</p>
-            <input class="d-inline-block" type="text" name="address" placeholder="Điền vào địa chỉ">
-          </div>
-
-          <div class="contact__name contact--suggest">
-            <p class="d-inline-block">Gợi ý:</p>
-            <input class="d-inline-block" type="text" name="suggest" placeholder="Điền vào góp ý">
-          </div>
-
-          <div class="contact__submit">
-            <input type="submit" value="Gửi">
+          <div class="form__gr3 form__gr3--phone">
+            <p class="form__gr3--title gr3__address--title"><i class="fas fa-phone-alt"></i>Phone</p>
+            <p class="form__gr3--text gr3__address--text">hoaquanamnguyet@gmail.com</p>
           </div>
         </div>
-      </form>
+
+        <form class="form__contact ">
+          <p class="form__contact--title">Liên hệ với chúng tôi</p>
+
+          <div class="form__contact--in4">
+            <div class="contact__name contact--name">
+              <p class="d-inline-block">Họ tên:</p>
+              <input class="d-inline-block" type="text" name="name" placeholder="Điền vào họ tên">
+            </div>
+
+            <div class="contact__name contact--email">
+              <p class="d-inline-block">Email:</p>
+              <input class="d-inline-block" type="text" name="email" placeholder="Điền vào email">
+            </div>
+
+            <div class="contact__name contact--phone">
+              <p class="d-inline-block">Sđt:</p>
+              <input class="d-inline-block" type="text" name="phone" placeholder="Điền vào số điện thoại">
+            </div>
+
+            <div class="contact__name contact--address">
+              <p class="d-inline-block">Địa chỉ:</p>
+              <input class="d-inline-block" type="text" name="address" placeholder="Điền vào địa chỉ">
+            </div>
+
+            <div class="contact__name contact--suggest">
+              <p class="d-inline-block">Gợi ý:</p>
+              <input class="d-inline-block" type="text" name="suggest" placeholder="Điền vào góp ý">
+            </div>
+
+            <div class="contact__submit">
+              <input type="submit" value="Gửi">
+            </div>
+          </div>
+        </form>
+      </div>     
     </div>
     
-    <!-- <div class="fb"> -->
+    <div class="fb">
       <div class="fb__title container-fluid">
         <p>Kết nối với chúng tôi qua facebook</p>
       </div>
       
       <div class="fb__img row container mx-auto">
         <div  class="fb__img--img col-12 col-md-3">
-          <img src="images/eat-waterlemon.jpg" alt="dua hau">
+          <img src="images/allef-vinicius-6ypOmTNK2FA-unsplash.jpg" alt="smile">
+        </div>
+        <div  class="fb__img--img col-12 col-md-3">
+          <img src="images/anton-darius-thesollers-jjCWRxTlATc-unsplash.jpg" alt="boy">
+        </div>
+        <div  class="fb__img--img col-12 col-md-3">
+          <img src="images/patricia-prudente-LqaLgCnnh3Y-unsplash.jpg" alt="girl">
         </div>
         <div  class="fb__img--img col-12 col-md-3">
           <img src="images/eat-waterlemon.jpg" alt="dua hau">
-        </div>
-        <div  class="fb__img--img col-12 col-md-3">
-          <img src="images/eat-waterlemon.jpg" alt="dua hau">
-        </div>
-        <div  class="fb__img--img col-12 col-md-3">
-          <img src="images/eat-waterlemon.jpg" alt="dua hau">
-        </div>
+        </div>        
       </div>
-      <!-- </div> -->
-    </main>
+    </div>
+
+    <div class="fb">
+      <div class="fb__title container-fluid">
+        <p>Hoặc tìm chúng tôi qua google maps</p>
+      </div>
+      
+      <div class="mapouter container mx-auto">
+        <div class="gmap_canvas">
+          <iframe width="1110" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=48%20to%20huu&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+          <a href="https://usave.co.uk">usave</a>
+        </div>
+        <style>
+          .mapouter{position:relative;text-align:center;height:300px;width:100%;}
+          .gmap_canvas {overflow:hidden;background:none!important;height:300px;width:100%;}
+        </style>
+      </div>
+    </div>
+  </main>
 
 
+  <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
-    <!-- footer -->
-    <div id="footer"></div>
 
-    <!-- jQuery -->
-    <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- footer -->
+  <div id="footer"></div>
 
-    <!-- popper -->
-    <script src="js/popper.min.js"></script> 
+  <!-- jQuery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
 
-    <!-- bootstrap -->
-    <script src="js/bootstrap.min.js"></script>
+  <!-- popper -->
+  <script src="js/popper.min.js"></script> 
 
-    <!--   js  -->
-    <script src="js/script.js"></script>
-  </body>
-  </html>
+  <!-- bootstrap -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <!--   js  -->
+  <script src="js/script.js"></script>
+</body>
+</html>
