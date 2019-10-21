@@ -23,8 +23,8 @@
   <!-- menu -->
   <link rel="stylesheet" href="css/menu.css">
 
-  <!-- index css -->
-  <link rel="stylesheet" href="css/index.css">
+  <!-- product css -->
+  <link rel="stylesheet" href="css/product.css">
   
   <!-- responsive -->
   <link rel="stylesheet" href="css/responsive.css">
@@ -33,37 +33,113 @@
   <title>Sản phẩm</title>
 </head>
 <body>
-  <!-- header -->
-  <div id="header"></div>
 
   <!-- menu -->
   <div id="menu"></div>
+  <!-- fluid main -->
+  <div class="container-fluid" style="background: #FbFbFb;">
+    <!-- main -->
+    <div class="container">
+      <div class="search">
+        <form class="container">
+          <input type="search" maxlength="235" placeholder="Tìm kiếm trên Fruit NA">
+        </form>
+      </div>
 
-  <img src="images/le.jpg" alt="le">
-  <p class="title">qua. le day</p>
-  <p id="text">hihihhi</p>
+      <div class="index__link container">
+        <ul>
+          <li>
+            <a href="index.html">Trang chủ</a>
+          </li>
+          <li>
+            <i class="fas fa-angle-right"></i>
+            <a href="#">Trái cây</a>
+          </li>
+        </ul>
+      </div>   
 
+      <!--code thân here -->
+      <div class="product row">
+        <div class="product__img col-12 col-md-4">
+          <img class="img-fluid" src="images/nho2.jpg" alt="nho">
+        </div>
 
+        <div class="col-12 col-md-1"></div>
 
-  <!-- main -->
-  <div>
-    
+        <div class="product__basic basic col-12 col-md-7">
+          <p class="basic__title">Nho tươi Hà Nội</p>
+          <p class="basic__price">120.000đ</p>
+          <p class="basic__introduce">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <div class="basic__num">
+            <p class="basic__num--title d-inline-block">Số lượng</p>
+            <i class="fas fa-plus d-inline-block"></i>
+            <p class="basic__num--num d-inline-block">1</p>
+            <i class="fas fa-minus d-inline-block"></i>
+          </div>
+
+          <div class="basic__buy buy">
+            <a href="#"><p class="buy__now d-inline-block">Mua ngay</p></a>
+            <a href="#">
+              <i class="fas fa-cart-plus fa-2x d-inline-block"></i>
+              <p class="buy__add d-inline-block">Thêm vào giỏ hàng</p>
+            </a>
+          </div>
+        </div>
+      </div>  
+
+      <div class="product__share share">
+        <p class="share__title d-inline-block">Chia sẻ:</p>
+        <a href="https://www.facebook.com/F5fruitshop"><i class="fab fa-facebook-square d-inline-block fa-2x"></i></a>
+        <a href="https://www.instagram.com/yourlocalfruitshop/"><i class="fab fa-instagram d-inline-block fa-2x"></i></a>
+        <a href="https://www.youtube.com/user/MBGFruit"><i class="fab fa-youtube d-inline-block fa-2x"></i></a>
+        <a href="https://twitter.com/uddfreshfruit"><i class="fab fa-twitter d-inline-block fa-2x"></i></a>
+      </div>
+
+      <div class="product__in4">
+        <div class="in4">
+          <a href="#"><p>Chi tiết sản phẩm</p></a>
+          <a href="#"><p>Mô tả sản phẩm</p></a>
+          <a href="#"><p>Đánh giá</p></a>
+        </div>
+
+        <p class="in4__title">
+          Nho mẫu đơn Shine Muscat được trồng ở Hàn Quốc theo phương pháp hữu cơ, hoàn toàn trồng trong nhà kính nên nho rất sạch, rất thơm và có mùi vị đặc biệt.<br><br>
+          Công dụng<br><br>
+          Nho mẫu đơn Shine Muscat cung cấp nhiều chất chống oxi hóa rất tốt cho tim mạch, huyết áp cao. Chúng cũng rất tốt cho mắt, não và trí nhớ. Vỏ nho rất tốt cho sức khỏe như: tăng cường sức đề kháng, chống lão hóa, có tác dụng thải độc tố…<br>
+          Hàm lượng resveratrol trong vỏ nho phong phú hơn trong thịt và hạt nho, đồng thời có tác dụng giảm máu nhiễm mỡ, chống tụ huyết, phòng chống xơ vữa động mạch và tăng cường hệ thống miễn dịch của cơ thể.
+          Việc ăn nho thường xuyên giúp cơ thể khỏe mạnh, giúp nhanh phục hồi đối với những người bị thiếu máu kinh niên, những bệnh nhân bị huyết áp cao, viêm phế quản, gout, viêm dạ dày và táo bón.<br><br>
+          Cách bảo quản<br><br>
+          Nho mẫu đơn Shine Muscat không tăng độ đường (ngọt) sau khi hái nên nho chỉ được thu hoạch khi chín. Lúc này nho rất nhạy cảm, dễ bị rụng nên cần nhẹ tay trong quá trình thu hái.
+          Cách bảo quản nho tốt nhất: để nho chưa rửa vào trong tủ lạnh (ở nhiệt độ từ 0 – 4 độ C) để không làm đi lớp phấn phủ tự nhiên của quả nho. Chỉ nên rửa nho trước khi ăn tươi hoặc chế biến món ăn.<br>
+
+        </p>
+      </div>
+
+      <div class="same">
+        <p class="same__title">Sản phẩm tương tự</p>
+        <div class="same__row row">         
+        </div>
+      </div>
+
+      <!-- kết thúc all  -->
+    </div>
   </div>
   
 
 
 
-  
+
+
 
   <!-- footer -->
   <div id="footer"></div>
 
   <!-- jQuery -->
   <script src="js/jquery-3.4.1.min.js"></script>
-  
+
   <!-- popper -->
   <script src="js/popper.min.js"></script> 
-  
+
   <!-- bootstrap -->
   <script src="js/bootstrap.min.js"></script>
 

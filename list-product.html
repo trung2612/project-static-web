@@ -30,7 +30,7 @@
   <link rel="stylesheet" href="css/responsive.css">
 
 
-  <title>Sản phẩm</title>
+  <title>Trái cây</title>
 </head>
 <body>
 
@@ -41,7 +41,7 @@
   <div>
     <div class="search">
       <form class="container">
-        <input type="text" maxlength="235" placeholder="Tìm kiếm trên Fruit NA">
+        <input type="search" maxlength="235" placeholder="Tìm kiếm trên Fruit NA">
       </form>
     </div>
     
@@ -71,13 +71,24 @@
             <div class="sort">
               <h3 class="sort__title">Sắp xếp theo<i class="fas fa-angle-down"></i></h3>
             </div>
+            <div class="sort__hide">
+              <div class="price__dec">
+                <h3 class="sort__hide--title">Giá giảm dần</h3>
+              </div>
+              <div class="price__inc">
+                <h3 class="sort__hide--title">Giá tăng dần</h3>
+              </div>
+            </div>
+            
           </div>
           <div class="nextpage col-12 col-md-2">
-            <i class="fas fa-angle-left"></i>
-            <h4>1</h4>
-            <h4>/</h4>
-            <h4>9</h4>
-            <i class="fas fa-angle-right"></i>
+            <a href="list-product.html"><i class="fas fa-angle-left"></i></a>
+            <div class="nextpage__pagename">
+              <h4><a href="list-product.html">1</a></h4>
+              <h4>/</h4>
+              <h4><a href="list-product.html">9</a></h4>
+            </div>           
+            <a href="list-product.html"><i class="fas fa-angle-right"></i></a>
           </div>
         </div>
 
@@ -141,22 +152,22 @@
           </div>      
         </div>
 
-
-        <!-- footer -->
-        <div id="footer"></div>
-
-        <!-- jQuery -->
-        <script src="js/jquery-3.4.1.min.js"></script>
-
-        <!-- popper -->
-        <script src="js/popper.min.js"></script> 
-
-        <!-- bootstrap -->
-        <script src="js/bootstrap.min.js"></script>
-
-        <!--   js  -->
-        <script src="js/script.js"></script>
       </div>
+      <!-- footer -->
+      <div id="footer"></div>
+
+      <!-- jQuery -->
+      <script src="js/jquery-3.4.1.min.js"></script>
+
+      <!-- popper -->
+      <script src="js/popper.min.js"></script> 
+
+      <!-- bootstrap -->
+      <script src="js/bootstrap.min.js"></script>
+
+      <!--   js  -->
+      <script src="js/script.js"></script>
+      
     </div>
     
   </body>

@@ -1,17 +1,16 @@
 {
 	"fruit": [
-		{"id": 1, "name": "Dưa hấu", "price": "20.000", "img": "dua-hau.jpg", "link": "list-product.html"},
-		{"id": 2, "name": "Sầu riêng", "price": "70.000", "img": "sau-rieng.jpg", "link": "list-product.html"},
-		{"id": 3, "name": "Nho", "price": "220.000", "img": "sau-rieng.jpg", "link": "list-product.html"},
-		{"id": 4, "name": "Sơ-ri", "price": "110.000", "img": "so-ri.jpg", "link": "list-product.html"},
-		{"id": 5, "name": "Dâu tây", "price": "250.000", "img": "dau-tay.jpg", "link": "list-product.html"},
-		{"id": 6, "name": "Cam", "price": "40.000", "img": "cam.jpg", "link": "list-product.html"},
-		{"id": 7, "name": "Lê", "price": "150.000", "img": "le.jpg", "link": "list-product.html"},
-		{"id": 8, "name": "Táo Mỹ", "price": "150.000", "img": "tao.jpg", "link": "list-product.html"},
-		{"id": 9, "name": "Chuối", "price": "25.000", "img": "chuoi.jpg", "link": "list-product.html"},
-		{"id": 10, "name": "Xoài", "price": "30.000", "img": "xoai.jpg", "link": "list-product.html"},
-		{"id": 11, "name": "Cam", "price": "40.000", "img": "cam.jpg", "link": "list-product.html"},
-		{"id": 12, "name": "Sơ-ri", "price": "110.000", "img": "so-ri.jpg", "link": "list-product.html"}
+		{"id": 1, "name": "Dưa hấu", "price": 20000, "img": "dua-hau.jpg", "link": "list-product.html"},
+		{"id": 2, "name": "Sầu riêng", "price": 70000, "img": "sau-rieng.jpg", "link": "list-product.html"},
+		{"id": 3, "name": "Nho", "price": 200000, "img": "sau-rieng.jpg", "link": "list-product.html"},
+		{"id": 4, "name": "Sơ-ri", "price": 110000, "img": "so-ri.jpg", "link": "list-product.html"},
+		{"id": 5, "name": "Dâu tây", "price": 250000, "img": "dau-tay.jpg", "link": "list-product.html"},
+		{"id": 6, "name": "Cam", "price": 40000, "img": "cam.jpg", "link": "list-product.html"},
+		{"id": 7, "name": "Lê", "price": 150000, "img": "le.jpg", "link": "list-product.html"},
+		{"id": 8, "name": "Táo Mỹ", "price": 150000, "img": "tao.jpg", "link": "list-product.html"},
+		{"id": 9, "name": "Chuối", "price": 25000, "img": "chuoi.jpg", "link": "list-product.html"},
+		{"id": 10, "name": "Xoài", "price": 30000, "img": "xoai.jpg", "link": "list-product.html"},
+		{"id": 11, "name": "Cam", "price": 40000, "img": "cam.jpg", "link": "list-product.html"},
+		{"id": 12, "name": "Sơ-ri", "price": 110000, "img": "so-ri.jpg", "link": "list-product.html"}
 	]
 }
-

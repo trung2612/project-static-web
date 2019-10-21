@@ -1,0 +1,10 @@
+	{
+		"juice": [
+			{"id": 1, "name": "Nước ép xoài", "price": 35000, "img": "nuoc-xoai.jpg", "link": "list-product.html"},
+			{"id": 2, "name": "Nước ép cam", "price": 40000, "img": "ep-cam.jpg", "link": "list-product.html"},
+			{"id": 3, "name": "Nước ép lựu", "price": 30000, "img": "nuoc.jpg", "link": "list-product.html"},
+			{"id": 4, "name": "Nước việt quất", "price": 40000, "img": "ep-quat.jpg", "link": "list-product.html"},
+			{"id": 5, "name": "Nước xoai", "price": 40000, "img": "nuoc-xoai2.jpg", "link": "list-product.html"},
+			{"id": 6, "name": "Nước ép lựu", "price": 35000, "img": "nuoc.jpg", "link": "list-product.html"}
+		]
+	}

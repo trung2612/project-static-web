@@ -13,6 +13,10 @@ body::before {
 	z-index: -2;
 }
 
+.navbar::before {
+    opacity: 0.4;
+}
+
 .form {
     margin-top: -105px;
 }

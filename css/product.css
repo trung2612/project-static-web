@@ -1,0 +1,176 @@
+.navbar::before {
+    background: #51A60F;
+    opacity: 0.8;
+}
+
+#menu {
+	min-height: 0;
+}
+
+.product {
+	background: white;
+}
+
+.product__img img {
+	height: 425px;
+	object-fit: cover;
+	width: 350px;
+}
+
+.basic__title {
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 44px;
+
+	padding-bottom: 15px;
+}
+
+.basic__price {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+	padding-bottom: 55px;
+}
+
+.basic__introduce {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	padding-bottom: 55px;
+}
+
+.basic__num i {
+	padding: 0 25px;
+}
+
+.basic__num--title {
+	font-size: 18px;
+	line-height: 21px;
+	padding-right: 25px;
+}
+
+.basic__num--num {
+	font-size: 18px;
+	line-height: 21px;
+}
+.buy {
+	padding-top: 25px;
+}
+
+.buy__now {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	padding: 15px 45px;
+	margin-bottom: 0;
+	background: #51A60F;
+	color: white;
+}
+
+.buy__add {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.buy i {
+	padding-left: 30px;
+	padding-right: 8px;
+	position: relative;
+	top: 3px;
+}
+
+.buy a:last-child {
+	color: black;
+}
+
+.share {
+	padding-top: 60px;
+}
+
+.share__title {
+	font-size: 18px;
+	line-height: 21px;
+}
+
+.share a:nth-child(2) {
+	color: #1877f2;
+}
+.share a:nth-child(3) {
+	color: #FD1D1D;
+}
+.share a:nth-child(4) {
+	color: #FF0000;
+}
+.share a:nth-child(5) {
+	color: #1da1f2;
+}
+
+.share i {
+	padding-left: 30px;
+}
+
+.product__in4 {
+	padding-top: 40px;
+}
+
+.in4 a p {
+	display: inline-block;
+	color: black;
+	font-size: 18px;
+	line-height: 21px;
+	padding: 10px 10px;
+	margin: 0;
+}
+
+.in4 a:first-child p {
+	background: #51A60F;
+	color: white;
+}
+.in4__title {
+	background: white;
+	padding: 10px 5px;
+}
+.same__pro img {
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	height: 245px;
+}
+.same__title {
+	font-size: 18px;
+line-height: 21px;
+}
+
+.same__name {
+font-size: 24px;
+line-height: 28px;
+align-items: center;
+text-align: center;
+color: #000000;
+padding-top: 15px;
+margin-bottom: 5px;
+}
+
+.same__price {
+	font-size: 14px;
+line-height: 16px;
+align-items: center;
+text-align: center;
+
+color: #20C71C;
+}
+
+.same__row {
+	padding-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
