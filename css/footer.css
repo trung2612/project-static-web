@@ -89,4 +89,8 @@
     .footer__icon i {
         padding: 10px 30px;
     }
+
+    .footer {
+        margin-top: 10px;
+    }
 }

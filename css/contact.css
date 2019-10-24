@@ -124,12 +124,14 @@ body::before {
 .contact__submit {
 	text-align: right;
 	padding-right: 95px;
+	padding-top: 15px;
 }
 .contact__submit input[type=submit]{
 	background: #368030;
 	border-radius: 5px;
 	width: 160px;
 	height: 36px;
+	color: white;
 }
 
 /*------------------fb----------------*/

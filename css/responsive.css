@@ -1,8 +1,8 @@
 @media (min-width: 1200px) {
 	/*----------------about---------------------*/
 	.body__order--title p:last-child {
-    padding-left: 217px;
-}
+		padding-left: 217px;
+	}
 
 }
 
@@ -127,6 +127,13 @@
 	.contact__name input {
 		width: 70%;
 	}
+
+	.contact__submit {
+		padding-right: 35px;
+	}	
+
+	
+
 	/*list*/
 	.body__fruit--title {
 		padding-top: 30px;
@@ -322,6 +329,49 @@
 		max-height: none;
 	}
 
+	.contact__submit input[type=submit] {
+		width: 100%;
+	}
+
+	.contact__submit {
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+
+	.contact__submit {
+		padding-top: 5px;
+	}
+
+	.contact__name input[type=text] {
+		padding-left: 15px;
+	}
+
+	.form__contact--in4 div p {
+		padding-left: 10px;
+		width: 56px;
+	}
+
+	.form__contact--title {
+		font-size: 22px;
+		padding-left: 0; 
+		text-align: center;
+		padding-top: 30px;
+    padding-bottom: 15px;
+	}
+
+	.form__gr3 {
+		width: 150px;
+		padding-left: 16px;
+	}
+
+	.form__gr3--text {
+		padding-bottom: 25px;
+	}
+
+	.form__gr3--title {
+		padding-bottom: 15px;
+	}
+
 	/*list-product*/
 
 	.search form input {
@@ -470,18 +520,18 @@
 	}
 
 	.pay__add--address {
-    padding-left:  15px;
-    padding-bottom: 10px;
-}
+		padding-left:  15px;
+		padding-bottom: 10px;
+	}
 
-.pay__add--title i {
-    padding-left: 0px;
-    padding-right: 15px;
-}
+	.pay__add--title i {
+		padding-left: 0px;
+		padding-right: 15px;
+	}
 
-.pay__add {
-    padding-bottom: 10px;
-}
+	.pay__add {
+		padding-bottom: 10px;
+	}
 
 	.pay__by--title, .transport--title {
 		padding-bottom: 10px;
@@ -505,9 +555,6 @@
 	.pay__button, .total {
 		padding-right: 0px;
 	}
-
-
-
 
 }
 
@@ -556,6 +603,32 @@
 		left: 150px;
 	}
 
+	/*contact*/
+	.form__gr3 {
+		width: 125px;
+		padding-left: 11px;
+	}
+
+	.contact__name input {
+    width: 68%;
+}
+
+.contact__name input[type=text] {
+    padding-left: 10px;
+}
+
+.fb__img--img img {
+    height: 315px;
+}
+
+.form__gr3--title i {
+    padding-right: 10px;
+}
+
+.fb__title p {
+    font-size: 22px;
+}
+
 }
 
 @media (max-width: 320px){
@@ -591,6 +664,20 @@
 	.buy .fa-2x {
 		font-size: 1.5em;
 	}
+
+	/*contact*/
+	.fb__img--img img {
+    height: 260px;
+}
+
+.footer__icon i {
+    padding: 10px 30px;
+}
+
+
+.fb__title p {
+    font-size: 18px;
+}
 	/*collection*/
 	.collection__num i {
 		padding: 0 0px;
@@ -606,14 +693,50 @@
 
 	/*pay*/
 	.dongia2 {
-    margin-left: 40px;
-        margin-top: -50px;
+		margin-left: 40px;
+		margin-top: -50px;
+	}
+
+	.pay__num {
+		width: 100%;
+		max-width: 100%;
+		padding-left: 15px;
+	}
+
+	.form__gr3--title i {
+    font-size: 16px;
 }
 
-.pay__num {
-	width: 100%;
-    max-width: 100%;
-    padding-left: 15px;
+.form__gr3--title {
+    font-size: 17px;
 }
 
+.form__contact--title {
+    font-size: 17px;
+}
+
+.form__contact--in4 div p {
+    padding-left: 4px;
+    width: 49px;
+}
+
+.contact__name input[type=text] {
+    padding-left: 5px;
+}
+
+.contact__name input {
+    width: 65%;
+}
+
+.form__gr3--text {
+    padding-bottom: 32px;
+}
+
+/*.contact__submit {
+    padding-top: 0px;
+}*/
+
+.form__contact--title {
+    padding-top: 25px;
+}
 }
