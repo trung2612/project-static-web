@@ -23,7 +23,7 @@
   <!-- menu -->
   <link rel="stylesheet" href="css/menu.css">
 
-  <!-- index css -->
+  <!-- collection css -->
   <link rel="stylesheet" href="css/collection.css">
   
   <!-- responsive -->
@@ -39,36 +39,82 @@
 
 
   <!-- main -->
-  <div class="container">
-        <div class="search">
+  <div class="collection__fluid container-fluid">
+    <div class="search">
       <form class="container">
         <input type="text" maxlength="235" placeholder="Tìm kiếm trên Fruit NA">
       </form>
     </div>
-
-    <div class="index__link container">
-      <ul>
-        <li>
-          <a href="index.html">Trang chủ</a>
-        </li>
-        <li>
-          <i class="fas fa-angle-right"></i>
-          <a href="#">Giỏ hàng</a>
-        </li>
-      </ul>
-    </div>
-
-    <div class="collect__product">
-      <p class="d-inline-block"><i class="fas fa-check-circle" style="padding-left: 15px;padding-right: 30px;color: #51A60F"></i>Sản phẩm</p>
-      <div class="d-inline-block float-right">
-        <p class="d-inline-block">Đơn giá</p>
-        <p class="d-inline-block">Số lượng</p>
-        <p class="d-inline-block">Số tiền</p>
-        <p class="d-inline-block">Thao tác</p>
+    
+    <div class="container">
+      <div class="index__link container">
+        <ul>
+          <li>
+            <a href="index.html">Trang chủ</a>
+          </li>
+          <li>
+            <i class="fas fa-angle-right"></i>
+            <a href="#">Giỏ hàng</a>
+          </li>
+        </ul>
       </div>
     </div>
 
+    <!-- code here -->
+    <div class="collect__bg container-fluid">
+      <div class="collect container row mx-auto">
+        <p class="col-12 col-md d-inline-block r"><i class="tich fas fa-check-circle"></i>Sản phẩm</p>
+        <p class="col-12 col-md-2 d-inline-block float-right text-center">Đơn giá</p>
+        <p class="col-12 col-md-2 d-inline-block float-right text-center">Số lượng</p>
+        <p class="col-12 col-md-2 d-inline-block float-right text-center">Số tiền</p>
+        <p class="thaotac col-12 col-md-1 d-inline-block float-right text-center"><button type="button">Thao tác</button> </p>
+      </div>
 
+      <div class="collection__mistake">
+        <!-- sp1 -->
+        <div class="collection container mx-auto row">     
+          <div class="col-12 col-md d-inline-block">
+            <i class="tich fas fa-check-circle"></i>
+            <a href="product.html">
+              <div class="d-inline-block">
+                <img class="img-fluid" src="images/nho2.jpg" alt="nho">
+              </div>         
+              <p class="collection__title d-inline-block">Nho tươi Hà Nội</p>
+            </a>
+          </div>
+
+          <p class="dongia col-12 col-md-2 d-inline-block float-right text-center">11000d</p>
+          <div class="collection__num col-12 col-md-2 float-right text-center">
+            <button type="button"><i class="fas fa-plus d-inline-block"></i></button>
+            <p class="basic__num--num d-inline-block">1</p>
+            <button type="button"><i class="fas fa-minus d-inline-block"></i></button>
+          </div>
+          <p class="collection__price col-12 col-md-2 d-inline-block float-right text-center">11000d</p>
+          <p class="col-12 col-md-1 d-inline-block float-right text-center">
+            <!-- <a class="delete " href="">Xoá</a> -->
+            <button class="delete" type="button">Xoá</button>
+          </p>
+            
+        </div>
+        <!-- sp2 -->
+              
+      </div>
+      
+      <!-- check -->
+      <div class="collect__total container row mx-auto">
+        <p class="col-12 col-md float-left text-left"><i class="tich fas fa-check-circle"></i>Chọn tất cả(2)</p>
+        <p class="collect__total--total col-12 col-md-3 float-right">Tổng tiền hàng(2 sản phẩm):</p>
+        <p class="collect__total--price col-12 col-md-2 float-right">22000d</p>
+        <a id="collect__buy" href="pay.html"><p class="float-right">Mua Hàng</p></a>
+      </div>
+    </div>
+
+    <div class="same container">
+      <p class="same__title">Sản phẩm tương tự</p>
+      <div class="same__row row">         
+      </div>
+    </div>
+    <!-- ket thuc all -->
   </div>
   
 

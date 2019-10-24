@@ -8,6 +8,16 @@ body {
 		min-height: 600px;
 }
 
+.mark::before {
+	background: black;
+	opacity: 0.2;
+}
+
+.mark::before {
+    background: #51A60F;
+    opacity: 0.8;
+}
+
 .body {
 	background: #f9f9f9;
 }
@@ -378,4 +388,36 @@ color: #FFFFFF;
 .same__pro img:hover {
 	box-shadow: 0px 5px 5px 0px rgb(0,0,0,0.2);
 	transform: scale(1.05);
+}
+
+.same__pro img {
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	height: 245px;
+}
+.same__title {
+	font-size: 18px;
+line-height: 21px;
+}
+
+.same__name {
+font-size: 24px;
+line-height: 28px;
+align-items: center;
+text-align: center;
+color: #000000;
+padding-top: 15px;
+margin-bottom: 5px;
+}
+
+.same__price {
+	font-size: 14px;
+line-height: 16px;
+align-items: center;
+text-align: center;
+
+color: #20C71C;
+}
+
+.same__row {
+	padding-top: 15px;
 }

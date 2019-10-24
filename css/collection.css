@@ -1,0 +1,115 @@
+#menu {
+	min-height: 0;
+}
+
+.navbar::before {
+    background: #51A60F;
+    opacity: 0.8;
+}
+
+
+.collect i {
+padding-left: 15px;
+padding-right: 30px;
+color: #51A60F
+}
+
+.collect__bg {
+	background: #fbfbfb;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.collect, .collection,.collect__total {
+	padding-top: 25px;
+	padding-bottom: 10px;
+	background: white;
+}
+
+.collect {
+	margin-bottom: 20px;
+}
+
+.collection {
+	margin-top: 5px;
+}
+
+.collection a {
+	color: black;
+}
+
+
+.collection__price {
+	color: #51A60F;
+}
+
+.collection img {
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+}
+
+.collection__title {
+	position: absolute;
+	padding-left: 15px;
+    font-size: 16px;
+    top: 10px;
+}
+
+.thaotac {
+	padding:0;
+}
+.collection__num i {
+	padding: 0 15px;
+}
+
+.collection__num button,.thaotac button, .delete {
+	border: none;
+	background: none;
+}
+
+
+.tich {
+	padding-left: 15px;
+    padding-right: 26px;
+    color: #51A60F;
+}
+
+.collection__mistake {
+	padding-bottom: 40px;
+}
+
+.collect__total {
+	margin-bottom: 20px;
+	padding-bottom: 25px;
+}
+
+.collect__total p {
+	margin: 0;
+	text-align: center;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.collect__total p:first-child {
+    justify-content: left;
+}
+
+.collect__total {
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-right: 0;
+}
+
+.collect__total p:last-child {
+	background: #41850B;
+	color: white;
+	font-size: 18px;
+	line-height: 22px;
+	padding: 20px 42px;
+}
+
+.collect__total--price  {
+	color: #51A60F;
+}

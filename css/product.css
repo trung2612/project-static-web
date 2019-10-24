@@ -125,6 +125,27 @@
 	margin: 0;
 }
 
+.in4 button {
+	background: none;
+	border: none;
+}
+.in4 button p {
+    display: inline-block;
+    color: black;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 10px 10px;
+    margin: 0;
+}
+
+.in4__button--first {
+	background: #51A60F!important;
+}
+
+.in4__button--first p {
+	color: white!important;
+}
+
 .in4 a:first-child p {
 	background: #51A60F;
 	color: white;
@@ -165,6 +186,10 @@ color: #20C71C;
 	padding-top: 15px;
 }
 
+.buy button{
+	border: none;
+	background: none;
+}
 
 
 

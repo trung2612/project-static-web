@@ -1,6 +1,8 @@
 @media (min-width: 1200px) {
 	/*----------------about---------------------*/
-	
+	.body__order--title p:last-child {
+    padding-left: 217px;
+}
 
 }
 
@@ -176,6 +178,21 @@
 		height: 140px;
 	}
 
+	/*collection*/
+	.collect__total--total {
+		padding: 0;
+	}
+
+	.tich {
+		padding-left: 0px;
+		padding-right: 10px;
+	}
+
+	/*pay*/
+	.pay__by--how, .transport--how {
+		padding-left: 0;
+	}
+	
 }
 
 
@@ -204,6 +221,10 @@
 
 	.body__kind--fruit p {
 		font-size: 48px;
+	}
+
+	.pay__add--address {
+		padding-right: 0;
 	}
 
 }
@@ -348,24 +369,152 @@
 	}
 
 	.buy i {
-    padding-left: 15px;
+		padding-left: 15px;
+	}
+
+	.buy__now {
+		padding: 15px 40px;
+	}
+
+	.buy {
+		padding-top: 0;
+	}
+
+	.product__in4 {
+		padding-top: 45px;
+	}
+
+	.same__pro img {
+		height: auto;
+	}
+
+	/*collection*/
+	.collect p:nth-child(2),.collect p:nth-child(3),.collect p:nth-child(4) {
+		display: none!important;
+	}
+
+	.collect p, .collection div,.collection p, .collection__fluid {
+		padding: 0;
+	}
+
+	.tich {
+		padding-left: 0;
+	}
+
+	.collect i {
+		padding-left: 0px;
+		padding-right: 15px;
+	}
+
+	.collection__title {
+		padding-left: 10px!important;
+		top: 0;
+	}
+
+	.collection__price {
+		display: none!important;
+	}
+
+	.dongia {
+		color: #51A60F;
+		margin-top: -65px;
+		margin-left: -15px;
+	}
+
+	.collection__num {
+		margin-top: -20px;
+	}
+
+	.delete {
+		color: red;
+		display: none;
+	}
+
+	.thaotac {
+		position: absolute;
+		text-align: right!important;
+		width: 85%;
+	}
+
+	.collect__total--total {
+		justify-content: left!important;
+		padding: 17px;
+	}
+
+	.collect__total--price {
+		position: absolute;
+		margin-top: 38px!important;
+		margin-left: 182px!important;
+		width: 30%;
+	}
+
+	#collect__buy {
+		position: relative;
+		left: 200px;
+	}
+
+	/*pay*/
+	.pay__add--name {
+		padding: 0;
+		width: 60%;
+		max-width: 60%;
+		display: inline-block;
+		padding-left: 15px;
+	}
+
+	.pay__num {
+		width: 40%;
+		max-width: 40%;
+		display: inline-block;
+
+	}
+
+	.pay__add--address {
+    padding-left:  15px;
+    padding-bottom: 10px;
 }
 
-.buy__now {
-    padding: 15px 40px;
+.pay__add--title i {
+    padding-left: 0px;
+    padding-right: 15px;
 }
 
-.buy {
-	padding-top: 0;
+.pay__add {
+    padding-bottom: 10px;
 }
 
-.product__in4 {
-    padding-top: 45px;
+	.pay__by--title, .transport--title {
+		padding-bottom: 10px;
+		padding-left: 0;
+	}
+
+	.transport__price {
+		position: absolute;
+		text-align: right;
+		width: 80%;
+	}
+
+	.pay__by, .transport {
+		padding-bottom: 10px;
+	}
+
+	.total__price {
+		text-align: right;
+	}
+
+	.pay__button, .total {
+		padding-right: 0px;
+	}
+
+
+
+
 }
 
-.same__pro img {
-    height: auto;
-}
+@media (max-width: 414px){
+	.dongia2 {
+		margin-left: 0px;
+	}
 }
 
 @media (max-width: 375px){
@@ -388,8 +537,25 @@
 	}
 
 	.buy__now {
-    padding: 15px 45px;
-}
+		padding: 15px 30px;
+	}
+
+	.buy__add{
+		font-size: 16px;
+	}
+	/*collection*/
+	.dongia {
+		margin-left: 10px;
+	}
+
+	.collection__num {
+		margin-left: 25px;
+	}
+
+	#collect__buy {
+		left: 150px;
+	}
+
 }
 
 @media (max-width: 320px){
@@ -405,19 +571,19 @@
 	}
 	/*product*/
 	.share i {
-    padding-left: 15px;
-}
+		padding-left: 15px;
+	}
 
-.buy__now {
-    font-size: 16px;
-    padding: 10px 20px;
-}
+	.buy__now {
+		font-size: 16px;
+		padding: 10px 20px;
+	}
 
-.buy__add {
-    font-size: 16px;
-}
+	.buy__add {
+		font-size: 16px;
+	}
 
-.buy i {
+	.buy i {
 		padding-left: 0px;
 		padding-right: 0px;
 	}
@@ -425,4 +591,29 @@
 	.buy .fa-2x {
 		font-size: 1.5em;
 	}
+	/*collection*/
+	.collection__num i {
+		padding: 0 0px;
+	}
+
+	.dongia {
+		margin-left: 30px;
+	}
+
+	#collect__buy {
+		left: 100px;
+	}
+
+	/*pay*/
+	.dongia2 {
+    margin-left: 40px;
+        margin-top: -50px;
+}
+
+.pay__num {
+	width: 100%;
+    max-width: 100%;
+    padding-left: 15px;
+}
+
 }

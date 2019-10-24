@@ -5,7 +5,7 @@ $(function() {
 	$('#menu').load('menu.html');
 
 });
-
+// do du lieu sp
 $.getJSON('js/data.json', function(data) {
 	// console.log(data); -- done
 	let fruit = data.fruit;
@@ -35,7 +35,7 @@ $.getJSON('js/data.json', function(data) {
  <a class="page__num" href="# ">2</a>
  </li>
  <li>
- <a class="page__num" href="# ">2</a>
+ <a class="page__num" href="# ">3</a>
  </li>
  <li>
  <a class="page__num" href="# ">...</a>
@@ -54,7 +54,9 @@ $.getJSON('js/data.json', function(data) {
  $('.vegetable__list').html(fruitdatabase);
  $('.juce__list').html(fruitdatabase);
 });
+// done do du lieu sp
 
+// đổ ldữ liệu xưm thêm
 $.getJSON('js/data2.json', function(data) {
   // console.log(data); -- done
   let juice = data.juice;
@@ -72,10 +74,9 @@ $.getJSON('js/data2.json', function(data) {
     </div>
     `
   });  
-
-
- $('.same__row').html(juicedatabase);
+  $('.same__row').html(juicedatabase);
 });
+// done đổ dữ liệu xem thêm
 
 // ===== Scroll to Top ==== 
 $(window).scroll(function() {
@@ -91,7 +92,7 @@ $('#return-to-top').click(function() {      // When arrow is clicked
       }, 600);
 });
 
-
+//click sort thì hiên lựa chọn
 var dem = true;
 $('.sort').click(function(){
 
@@ -108,56 +109,146 @@ $('.sort').click(function(){
   }
 });
 
-$('.price__dec').click(function() {
-    $('.price__inc').css({
-        'background-color': 'white',
-        'color': 'black',
-    });
 
-    $(this).css({
-        'background-color': '#37ca31',
-        'color': 'white',
-    });
+$('.price__dec').click(function() {
+  $('.price__inc').css({
+    'background-color': 'white',
+    'color': 'black',
+  });
+
+  $(this).css({
+    'background-color': '#37ca31',
+    'color': 'white',
+  });
 });
 
 $('.price__inc').click(function() {
-    $('.price__dec').css({
-        'background-color': 'white',
-        'color': 'black',
-    });
+  $('.price__dec').css({
+    'background-color': 'white',
+    'color': 'black',
+  });
 
-    $(this).css({
-        'background-color': '#37ca31',
-        'color': 'white',
-    });
+  $(this).css({
+    'background-color': '#37ca31',
+    'color': 'white',
+  });
 });
+// done click sort thì hiên lựa chọn
 
 // sort
 $.getJSON('js/data.json', function(data) {
+  console.log(data);
   let results = [];
   let compare = {
     price: function(a,b) {
-      a = new Date(a);
-      b = new Date(b);
-      return a - b;
-    }
+      if (a < b) return -1;
+      else if (a > b) return 1;
+      else return 0;
+    },
   }
 
+  // function renderContent(array) {
+  //   // xoá hết cái ban đầu đi render lại
+  //   fruitdatabase.empty();
+  //   //lặp object films để đổ dữ liệu
+  //   array.forEach( function(element) {
+  //     fruitdatabase+=`
+  //     <tr>
+  //     <td>${element.genre}</td>
+  //     <td>${element.title}</td>
+  //     <td>${element.duration}</td>
+  //     <td>${element.date}</td>
+  //     </tr>
+  //     `;
+  //   });
+  // }
+  // renderContent(films);
+
+
   function renderContent(array) {
-    // xoá hết cái ban đầu đi render lại
-    $('.product__list').empty();
-    //lặp object films để đổ dữ liệu
+    // xoá hết cái ban đầu đi render lại
+    fruitdatabase.empty();
+    //lặp database để đổ dữ liệu
     array.forEach( function(element) {
-      $('.product__list').append(`
-        <tr>
-          <td>${element.genre}</td>
-          <td>${element.title}</td>
-          <td>${element.duration}</td>
-          <td>${element.date}</td>
-        </tr>
-      `);
+      fruitdatabase +=`
+        <div class="list__sp col-12 col-md-3">
+        <a href="product.html"><div>
+        <img class="img-fluid"   src="images/${element.img}" alt="anh">
+        </div></a>
+        <a href="product.html"><p class="list__sp--title">${element.name}</p></a>
+        <p class="list__sp--price">${element.price}&#160VND</p>
+        </div>
+
+        <nav class="page__nav">
+        <ul class="page__ul">
+        <li>
+        <a class="page__first" href="#"><&#160 &#160Trang đầu</a>
+        </li>
+        <li>
+        <a class="page__num" href="# ">1</a>
+        </li>
+        <li>
+        <a class="page__num" href="# ">2</a>
+        </li>
+        <li>
+        <a class="page__num" href="# ">3</a>
+        </li>
+        <li>
+        <a class="page__num" href="# ">...</a>
+        </li>
+        <li>
+        <a class="page__num" href="# ">7</a>
+        </li>
+        <li>
+        <a class="page__last" href="#">Trang cuối&#160 &#160></a>
+        </li>
+        </ul>
+        </nav>
+        `;
     });
   }
-  renderContent(films);
+  renderContent(fruitdatabase);
+
+
+//Sort - Sort cái database đang được show ngoài HTML
+  $('.sort__hide--title').on('click', function() {
+    let column = $('th').index(this);
+    let order = $(this).data('sort');
+    let rows = $('tbody tr').toArray(); //lấy các <tr> hiện tại lưu vào 1 mảng
+
+    if ($(this).is('.ascending') || $(this).is('.descending')) {
+      $(this).toggleClass('ascending descending');
+      $('tbody').append(rows.reverse());
+    } else {
+      $(this).siblings().attr('class', 'normal'); //Khi sort sang <th> khác thì các <th> còn lại về normal
+      $(this).attr('class', 'ascending');
+
+      rows.sort(function(a, b) {
+        a = $(a).find('td').eq(column).text();
+        b = $(b).find('td').eq(column).text();
+        return compare[order](a,b);
+      });
+      //không cần $('tbody').empty()
+      $('tbody').append(rows);
+    }
+  });
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 });

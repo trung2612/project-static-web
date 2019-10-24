@@ -1,4 +1,4 @@
-<!doctype html>
+ <!doctype html>
 <html lang="en">
 <head>
   <!-- Required meta tags -->
@@ -22,28 +22,132 @@
 
   <!-- menu -->
   <link rel="stylesheet" href="css/menu.css">
+  
+  <!-- collection -->
+  <link rel="stylesheet" href="css/collection.css">
 
-  <!-- index css -->
-  <link rel="stylesheet" href="css/index.css">
+  <!-- pay css -->
+  <link rel="stylesheet" href="css/pay.css">
   
   <!-- responsive -->
   <link rel="stylesheet" href="css/responsive.css">
 
 
-  <title>Sản phẩm</title>
+  <title>Thanh toán</title>
 </head>
 <body>
-  <!-- header -->
-  <div id="header"></div>
-
   <!-- menu -->
   <div id="menu"></div>
 
-
-
-  <!-- main -->
-  <div>
+  <div class="pay container-fluid">
+    <div class="search">
+      <form class="container">
+        <input type="text" maxlength="235" placeholder="Tìm kiếm trên Fruit NA">
+      </form>
+    </div>
     
+    <div class="container">
+      <div class="index__link container">
+        <ul>
+          <li>
+            <a href="index.html">Trang chủ</a>
+          </li>
+          <li>
+            <i class="fas fa-angle-right"></i>
+            <a href="#">Thanh toán</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!--code here -->
+  <!-- main -->
+  <div class="container-fluid">
+    <div class="collect__bg container-fluid">
+
+      <!-- address -->
+      <div class="pay__add container row mx-auto">
+        <div class="pay__add--title">
+          <p><i class="fas fa-map-marker-alt"></i>Địa chỉ nhận hàng</p>
+        </div>
+        <div class="pay__add--in4 container row mx-auto" >
+          <p class="col-12 col-md-3 pay__add--name ">Nguyễn Văn A</p>
+        <p class="pay__num col-12 col-md-1">+84 964748066</p>
+        <p class="pay__add--address col-12 col-md-4">48 Tố Hữu, Nam Từ Liêm, Hà Nội</p>
+        <!-- <p class="col-12 col-md-1"></p> -->
+        <p class="col-12 col-md-2 text-center"><button type="button" >Thay đổi</button></p>
+        </div>
+        
+      </div>
+      <!-- address end -->
+
+      <div class="collect container row mx-auto">
+        <p class="col-12 col-md d-inline-block r"><i class="tich fas fa-check-circle"></i>Sản phẩm</p>
+        <p class="col-12 col-md-2 d-inline-block float-right text-center">Đơn giá</p>
+        <p class="col-12 col-md-2 d-inline-block float-right text-center">Số lượng</p>
+        <p class="col-12 col-md-2 d-inline-block float-right text-center">Thành tiền</p>
+        
+      </div>
+
+      <div class="collection__mistake">
+        <!-- sp1 -->
+        <div class="collection container mx-auto row">     
+          <div class="col-12 col-md d-inline-block">
+            <i class="tich fas fa-check-circle"></i>
+            <a href="product.html">
+              <div class="d-inline-block">
+                <img class="img-fluid" src="images/nho2.jpg" alt="nho">
+              </div>         
+              <p class="collection__title d-inline-block">Nho tươi Hà Nội</p>
+            </a>
+          </div>
+
+          <p class="dongia dongia2 col-12 col-md-2 d-inline-block float-right text-center">11000d</p>
+          <div class="collection__num col-12 col-md-2 float-right text-center">
+            <p class="basic__num--num d-inline-block">1</p>
+          </div>
+          <p class="collection__price col-12 col-md-2 d-inline-block float-right text-center">11000d</p>        
+        </div>  
+        <!-- sp1 end  -->  
+      </div>
+
+      <!-- van chuyen -->
+      <div class="transport container row mx-auto">
+        <p class="transport--title col-12 col-md">Đơn vị vận chuyển</p>       
+        <div class="transport--how col-12 col-md-3">
+          <p>Giao hàng tiết kiệm</p>
+          <p>nhận hàng vào 12-10-2019</p>
+        </div>
+        <p class="transport--change col-12 col-md-2"><button type="button" >Thay đổi</button></p>
+        <p class="transport__price col-12 col-md-2">11000d</p>        
+      </div>
+      <!-- van chuyen end -->
+
+      <!-- phuong thuc thanhh toan -->
+      <div class="pay__by container row mx-auto">
+        <p class="pay__by--title col-12 col-md-5">Phương thức thanh toán</p>
+        <p class="pay__by--how col-12 col-md-3">Thanh toán khi nhận hàng</p> 
+        <p class="pay__by--change col-12 col-md-2"><button type="button" >Thay đổi</button> </p>
+        <p class="col-12 col-md-2"></p>
+      </div>
+      <!-- pttt end -->
+      
+      <!-- total -->
+      <div class="total container mx-auto row">
+        <p class="col-12 col-md-6"></p>
+        <p class="total__title col-12 col-md-4">Tổng tiền hàng(2 sản phẩm):</p>
+        <p class="total__price col-12 col-md-2">11000d</p>
+        
+      </div>
+      <!-- total end -->
+
+      <div class="pay__button container mx-auto">
+        <button type="button">
+          <p>Thanh toán</p>
+        </button>
+      </div>
+    </div> <!-- collect__bg end -->
   </div>
   
 
