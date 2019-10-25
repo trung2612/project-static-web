@@ -356,7 +356,7 @@
 		padding-left: 0; 
 		text-align: center;
 		padding-top: 30px;
-    padding-bottom: 15px;
+		padding-bottom: 15px;
 	}
 
 	.form__gr3 {
@@ -562,6 +562,19 @@
 	.dongia2 {
 		margin-left: 0px;
 	}
+	.bye__btn {
+		padding-bottom: 40px;
+	}
+
+	.bye__khung--title {
+		font-size: 16px;
+		padding-top: 40px;
+		padding-bottom: 35px;
+	}
+
+	.buy__title {
+		font-size: 26px;
+	}
 }
 
 @media (max-width: 375px){
@@ -610,24 +623,24 @@
 	}
 
 	.contact__name input {
-    width: 68%;
-}
+		width: 68%;
+	}
 
-.contact__name input[type=text] {
-    padding-left: 10px;
-}
+	.contact__name input[type=text] {
+		padding-left: 10px;
+	}
 
-.fb__img--img img {
-    height: 315px;
-}
+	.fb__img--img img {
+		height: 315px;
+	}
 
-.form__gr3--title i {
-    padding-right: 10px;
-}
+	.form__gr3--title i {
+		padding-right: 10px;
+	}
 
-.fb__title p {
-    font-size: 22px;
-}
+	.fb__title p {
+		font-size: 22px;
+	}
 
 }
 
@@ -667,17 +680,17 @@
 
 	/*contact*/
 	.fb__img--img img {
-    height: 260px;
-}
+		height: 260px;
+	}
 
-.footer__icon i {
-    padding: 10px 30px;
-}
+	.footer__icon i {
+		padding: 10px 30px;
+	}
 
 
-.fb__title p {
-    font-size: 18px;
-}
+	.fb__title p {
+		font-size: 18px;
+	}
 	/*collection*/
 	.collection__num i {
 		padding: 0 0px;
@@ -704,39 +717,39 @@
 	}
 
 	.form__gr3--title i {
-    font-size: 16px;
-}
+		font-size: 16px;
+	}
 
-.form__gr3--title {
-    font-size: 17px;
-}
+	.form__gr3--title {
+		font-size: 17px;
+	}
 
-.form__contact--title {
-    font-size: 17px;
-}
+	.form__contact--title {
+		font-size: 17px;
+	}
 
-.form__contact--in4 div p {
-    padding-left: 4px;
-    width: 49px;
-}
+	.form__contact--in4 div p {
+		padding-left: 4px;
+		width: 49px;
+	}
 
-.contact__name input[type=text] {
-    padding-left: 5px;
-}
+	.contact__name input[type=text] {
+		padding-left: 5px;
+	}
 
-.contact__name input {
-    width: 65%;
-}
+	.contact__name input {
+		width: 65%;
+	}
 
-.form__gr3--text {
-    padding-bottom: 32px;
-}
+	.form__gr3--text {
+		padding-bottom: 32px;
+	}
 
 /*.contact__submit {
     padding-top: 0px;
-}*/
+    }*/
 
-.form__contact--title {
-    padding-top: 25px;
-}
+    .form__contact--title {
+    	padding-top: 25px;
+    }
 }

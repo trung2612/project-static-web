@@ -1,0 +1,34 @@
+.buy__title {
+	color: #51A60F;
+	font-size: 32px;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 80px;
+}
+
+.bye__khung--title {
+	font-size: 22px;
+	color: #51A60F;
+	padding-top: 50px;
+	padding-bottom:  50px;
+	text-align: center;
+}
+
+.bye__khung {
+	background: #F9F9F9;
+	margin-bottom: 170px;
+}
+
+.bye__btn button {
+	background: none;
+	border: none;
+	background: #51A60F;
+	padding:20px 50px;
+	color: white;
+
+}
+
+.bye__btn {
+	text-align: center;
+	padding-bottom: 50px;
+}

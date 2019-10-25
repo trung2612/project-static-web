@@ -147,23 +147,6 @@ $.getJSON('js/data.json', function(data) {
     },
   }
 
-  // function renderContent(array) {
-  //   // xoá hết cái ban đầu đi render lại
-  //   fruitdatabase.empty();
-  //   //lặp object films để đổ dữ liệu
-  //   array.forEach( function(element) {
-  //     fruitdatabase+=`
-  //     <tr>
-  //     <td>${element.genre}</td>
-  //     <td>${element.title}</td>
-  //     <td>${element.duration}</td>
-  //     <td>${element.date}</td>
-  //     </tr>
-  //     `;
-  //   });
-  // }
-  // renderContent(films);
-
 
   function renderContent(array) {
     // xoá hết cái ban đầu đi render lại
@@ -210,29 +193,6 @@ $.getJSON('js/data.json', function(data) {
   renderContent(fruitdatabase);
 
 
-//Sort - Sort cái database đang được show ngoài HTML
-  $('.sort__hide--title').on('click', function() {
-    let column = $('th').index(this);
-    let order = $(this).data('sort');
-    let rows = $('tbody tr').toArray(); //lấy các <tr> hiện tại lưu vào 1 mảng
-
-    if ($(this).is('.ascending') || $(this).is('.descending')) {
-      $(this).toggleClass('ascending descending');
-      $('tbody').append(rows.reverse());
-    } else {
-      $(this).siblings().attr('class', 'normal'); //Khi sort sang <th> khác thì các <th> còn lại về normal
-      $(this).attr('class', 'ascending');
-
-      rows.sort(function(a, b) {
-        a = $(a).find('td').eq(column).text();
-        b = $(b).find('td').eq(column).text();
-        return compare[order](a,b);
-      });
-      //không cần $('tbody').empty()
-      $('tbody').append(rows);
-    }
-  });
-  
 
 
 
