@@ -575,6 +575,10 @@
 	.buy__title {
 		font-size: 26px;
 	}
+
+	.list__sp {
+		margin-bottom: 20px;
+	}
 }
 
 @media (max-width: 375px){
