@@ -26,22 +26,22 @@ $.getJSON('js/data.json', function(data) {
  <nav class="page__nav">
  <ul class="page__ul">
  <li>
- <a class="page__first" href="#"><&#160 &#160Trang đầu</a>
+ <a class="page__first" href="list-product.html"><&#160 &#160Trang đầu</a>
  </li>
  <li>
- <a class="page__num" href="# ">1</a>
+ <a class="page__num" href="list-product.html ">1</a>
  </li>
  <li>
- <a class="page__num" href="# ">2</a>
+ <a class="page__num" href="list-product.html ">2</a>
  </li>
  <li>
- <a class="page__num" href="# ">3</a>
+ <a class="page__num" href="list-product.html ">3</a>
  </li>
  <li>
- <a class="page__num" href="# ">...</a>
+ <a class="page__num" href="list-product.html ">...</a>
  </li>
  <li>
- <a class="page__num" href="# ">7</a>
+ <a class="page__num" href="list-product.html ">7</a>
  </li>
  <li>
  <a class="page__last" href="#">Trang cuối&#160 &#160></a>
