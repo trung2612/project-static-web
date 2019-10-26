@@ -167,6 +167,14 @@ body::before {
 	object-fit: cover;
 }
 
+.contact__name input[type=text] {
+border: none;
+}
+
+.contact__name {
+	border: none;
+}
+
 /*.gr3 , .form__contact {
 	float: left;
 }*/
